@@ -1,0 +1,2561 @@
+===========
+VULKAN INFO
+===========
+
+Vulkan API Version: 1.0.8
+
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_object_tracker.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_unique_objects.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_device_limits.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_core_validation.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_hello_world.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_image.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_threading.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_swapchain.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_parameter_validation.json, version "1.0.0"
+INFO: [loader] Code 0 : Found manifest file /usr/share/vulkan/icd.d/intel_icd.json, version "1.0.0"
+Instance Extensions and layers:
+===============================
+Instance Extensions	count = 3
+	VK_KHR_surface                  : extension revision 25
+	VK_KHR_xcb_surface              : extension revision  5
+	VK_EXT_debug_report             : extension revision  2
+
+Instance Layers	count = 10
+	VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_object_tracker Extensions	count = 1
+		VK_EXT_debug_report             : extension revision  2
+
+	VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_GOOGLE_unique_objects Extensions	count = 0
+
+	VK_LAYER_LUNARG_device_limits (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_device_limits Extensions	count = 1
+		VK_EXT_debug_report             : extension revision  2
+
+	VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_core_validation Extensions	count = 1
+		VK_EXT_debug_report             : extension revision  2
+
+	VK_LAYER_SCARPINO_helloworld (Simple layer example) Vulkan version 1.0.24, layer version 1
+	VK_LAYER_SCARPINO_helloworld Extensions	count = 0
+
+	VK_LAYER_LUNARG_image (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_image Extensions	count = 1
+		VK_EXT_debug_report             : extension revision  2
+
+	VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_GOOGLE_threading Extensions	count = 1
+		VK_EXT_debug_report             : extension revision  2
+
+	VK_LAYER_LUNARG_swapchain (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_swapchain Extensions	count = 1
+		VK_EXT_debug_report             : extension revision  2
+
+	VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_parameter_validation Extensions	count = 1
+		VK_EXT_debug_report             : extension revision  2
+
+	VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation Layer) Vulkan version 1.0.0, layer version 1
+	VK_LAYER_LUNARG_standard_validation Extensions	count = 0
+
+Device Extensions and layers:
+=============================
+GPU0
+VkPhysicalDeviceProperties:
+===========================
+	apiVersion     = 4194306
+	driverVersion  = 1
+	vendorID       = 0x8086
+	deviceID       = 0x1926
+	deviceType     = INTEGRATED_GPU
+	deviceName     = Intel(R) Iris Graphics 540 (Skylake GT3e)
+	VkPhysicalDeviceLimits:
+	-----------------------
+		maxImageDimension1D                     = 0x4000
+		maxImageDimension2D                     = 0x4000
+		maxImageDimension3D                     = 0x800
+		maxImageDimensionCube                   = 0x4000
+		maxImageArrayLayers                     = 0x800
+		maxTexelBufferElements                  = 0x8000000
+		maxUniformBufferRange                   = 0xffffffff
+		maxStorageBufferRange                   = 0xffffffff
+		maxPushConstantsSize                    = 0x80
+		maxMemoryAllocationCount                = 0xffffffff
+		maxSamplerAllocationCount               = 0x10000
+		bufferImageGranularity                  = 0x40
+		sparseAddressSpaceSize                  = 0x0
+		maxBoundDescriptorSets                  = 0x8
+		maxPerStageDescriptorSamplers           = 0x40
+		maxPerStageDescriptorUniformBuffers     = 0x40
+		maxPerStageDescriptorStorageBuffers     = 0x40
+		maxPerStageDescriptorSampledImages      = 0x40
+		maxPerStageDescriptorStorageImages      = 0x40
+		maxPerStageDescriptorInputAttachments   = 0x40
+		maxPerStageResources                    = 0x80
+		maxDescriptorSetSamplers                = 0x100
+		maxDescriptorSetUniformBuffers          = 0x100
+		maxDescriptorSetUniformBuffersDynamic   = 0x100
+		maxDescriptorSetStorageBuffers          = 0x100
+		maxDescriptorSetStorageBuffersDynamic   = 0x100
+		maxDescriptorSetSampledImages           = 0x100
+		maxDescriptorSetStorageImages           = 0x100
+		maxDescriptorSetInputAttachments        = 0x100
+		maxVertexInputAttributes                = 0x20
+		maxVertexInputBindings                  = 0x20
+		maxVertexInputAttributeOffset           = 0x7ff
+		maxVertexInputBindingStride             = 0x800
+		maxVertexOutputComponents               = 0x80
+		maxTessellationGenerationLevel          = 0x0
+		maxTessellationPatchSize                        = 0x0
+		maxTessellationControlPerVertexInputComponents  = 0x0
+		maxTessellationControlPerVertexOutputComponents = 0x0
+		maxTessellationControlPerPatchOutputComponents  = 0x0
+		maxTessellationControlTotalOutputComponents     = 0x0
+		maxTessellationEvaluationInputComponents        = 0x0
+		maxTessellationEvaluationOutputComponents       = 0x0
+		maxGeometryShaderInvocations            = 0x20
+		maxGeometryInputComponents              = 0x40
+		maxGeometryOutputComponents             = 0x80
+		maxGeometryOutputVertices               = 0x100
+		maxGeometryTotalOutputComponents        = 0x400
+		maxFragmentInputComponents              = 0x80
+		maxFragmentOutputAttachments            = 0x8
+		maxFragmentDualSrcAttachments           = 0x2
+		maxFragmentCombinedOutputResources      = 0x8
+		maxComputeSharedMemorySize              = 0x8000
+		maxComputeWorkGroupCount[0]             = 0xffff
+		maxComputeWorkGroupCount[1]             = 0xffff
+		maxComputeWorkGroupCount[2]             = 0xffff
+		maxComputeWorkGroupInvocations          = 0x380
+		maxComputeWorkGroupSize[0]              = 0x380
+		maxComputeWorkGroupSize[1]              = 0x380
+		maxComputeWorkGroupSize[2]              = 0x380
+		subPixelPrecisionBits                   = 0x4
+		subTexelPrecisionBits                   = 0x4
+		mipmapPrecisionBits                     = 0x4
+		maxDrawIndexedIndexValue                = 0xffffffff
+		maxDrawIndirectCount                    = 0xffffffff
+		maxSamplerLodBias                       = 16.000000
+		maxSamplerAnisotropy                    = 16.000000
+		maxViewports                            = 0x10
+		maxViewportDimensions[0]                = 0x4000
+		maxViewportDimensions[1]                = 0x4000
+		viewportBoundsRange[0]                  = -16384.000000
+		viewportBoundsRange[1]                  = 16384.000000
+		viewportSubPixelBits                    = 0xd
+		minMemoryMapAlignment                   = 4096
+		minTexelBufferOffsetAlignment           = 0x1
+		minUniformBufferOffsetAlignment         = 0x1
+		minStorageBufferOffsetAlignment         = 0x1
+		minTexelOffset                          = 0xfffffff8
+		maxTexelOffset                          = 0x7
+		minTexelGatherOffset                    = 0xfffffff8
+		maxTexelGatherOffset                    = 0x7
+		minInterpolationOffset                  = 0.000000
+		maxInterpolationOffset                  = 0.000000
+		subPixelInterpolationOffsetBits         = 0x0
+		maxFramebufferWidth                     = 0x4000
+		maxFramebufferHeight                    = 0x4000
+		maxFramebufferLayers                    = 0x400
+		framebufferColorSampleCounts            = 0x1f
+		framebufferDepthSampleCounts            = 0x1f
+		framebufferStencilSampleCounts          = 0x1f
+		maxColorAttachments                     = 0x8
+		sampledImageColorSampleCounts           = 0x1f
+		sampledImageDepthSampleCounts           = 0x1f
+		sampledImageStencilSampleCounts         = 0x1f
+		sampledImageIntegerSampleCounts         = 0x1
+		storageImageSampleCounts                = 0x1
+		maxSampleMaskWords                      = 0x1
+		timestampComputeAndGraphics             = 0
+		timestampPeriod                         = 0x0.000000
+		maxClipDistances                        = 0x0
+		maxCullDistances                        = 0x0
+		maxCombinedClipAndCullDistances         = 0x0
+		pointSizeRange[0]                       = 0.125000
+		pointSizeRange[1]                       = 255.875000
+		lineWidthRange[0]                       = 0.000000
+		lineWidthRange[1]                       = 7.992188
+		pointSizeGranularity                    = 0.125000
+		lineWidthGranularity                    = 0.007812
+		strictLines                             = 0
+		standardSampleLocations                 = 1
+		optimalBufferCopyOffsetAlignment        = 0x80
+		optimalBufferCopyRowPitchAlignment      = 0x80
+		nonCoherentAtomSize                     = 0x40
+	VkPhysicalDeviceSparseProperties:
+	---------------------------------
+		residencyStandard2DBlockShape            = 0
+		residencyStandard2DMultisampleBlockShape = 0
+		residencyStandard3DBlockShape            = 0
+		residencyAlignedMipSize                  = 0
+		residencyNonResidentStrict               = 0
+
+Device Extensions	count = 1
+	VK_KHR_swapchain                : extension revision 67
+
+
+Layers	count = 10
+	VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_object_tracker Extensions	count = 0
+
+	VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_GOOGLE_unique_objects Extensions	count = 0
+
+	VK_LAYER_LUNARG_device_limits (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_device_limits Extensions	count = 0
+
+	VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_core_validation Extensions	count = 0
+
+	VK_LAYER_SCARPINO_helloworld (Simple layer example) Vulkan version 1.0.24, layer version 1
+	VK_LAYER_SCARPINO_helloworld Extensions	count = 0
+
+	VK_LAYER_LUNARG_image (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_image Extensions	count = 0
+
+	VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_GOOGLE_threading Extensions	count = 0
+
+	VK_LAYER_LUNARG_swapchain (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_swapchain Extensions	count = 0
+
+	VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.0.8, layer version 1
+	VK_LAYER_LUNARG_parameter_validation Extensions	count = 0
+
+	VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation Layer) Vulkan version 1.0.0, layer version 1
+	VK_LAYER_LUNARG_standard_validation Extensions	count = 0
+
+
+VkQueueFamilyProperties[0]:
+============================
+	queueFlags         = GCD
+	queueCount         = 1
+	timestampValidBits = 36
+	minImageTransferGranularity = (1, 1, 1)
+
+VkPhysicalDeviceMemoryProperties:
+=================================
+	memoryTypeCount       = 1
+	memoryTypes[0] : 
+		propertyFlags = 15
+		heapIndex     = 0
+	memoryHeapCount       = 1
+	memoryHeaps[0] : 
+		size          = 3191070720
+
+VkPhysicalDeviceFeatures:
+=========================
+	robustBufferAccess                      = 1
+	fullDrawIndexUint32                     = 1
+	imageCubeArray                          = 0
+	independentBlend                        = 1
+	geometryShader                          = 1
+	tessellationShader                      = 0
+	sampleRateShading                       = 0
+	dualSrcBlend                            = 1
+	logicOp                                 = 1
+	multiDrawIndirect                       = 0
+	drawIndirectFirstInstance               = 0
+	depthClamp                              = 0
+	depthBiasClamp                          = 0
+	fillModeNonSolid                        = 1
+	depthBounds                             = 0
+	wideLines                               = 1
+	largePoints                             = 1
+	textureCompressionETC2                  = 1
+	textureCompressionASTC_LDR              = 1
+	textureCompressionBC                    = 1
+	occlusionQueryPrecise                   = 1
+	pipelineStatisticsQuery                 = 0
+	vertexSideEffects                       = 1
+	tessellationSideEffects                 = 1
+	geometrySideEffects                     = 1
+	shaderImageGatherExtended               = 1
+	shaderStorageImageExtendedFormats       = 0
+	shaderStorageImageMultisample           = 0
+	shaderStorageImageReadWithoutFormat     = 0
+	shaderStorageImageWriteWithoutFormat    = 1
+	shaderUniformBufferArrayDynamicIndexing = 1
+	shaderSampledImageArrayDynamicIndexing  = 1
+	shaderStorageBufferArrayDynamicIndexing = 1
+	shaderStorageImageArrayDynamicIndexing  = 1
+	shaderClipDistance                      = 0
+	shaderCullDistance                      = 0
+	shaderFloat64                           = 0
+	shaderInt64                             = 0
+	shaderInt16                             = 0
+	shaderResourceResidency                 = 0
+	shaderResourceMinLod                    = 0
+	alphaToOne                              = 1
+	sparseBinding                           = 0
+	sparseResidencyBuffer                   = 0
+	sparseResidencyImage2D                  = 0
+	sparseResidencyImage3D                  = 0
+	sparseResidency2Samples                 = 0
+	sparseResidency4Samples                 = 0
+	sparseResidency8Samples                 = 0
+	sparseResidency16Samples                = 0
+	sparseResidencyAliased                  = 0
+	variableMultisampleRate                 = 0
+	iheritedQueries                         = 0
+
+
+FORMAT_UNDEFINED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R4G4_UNORM_PACK8:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R4G4B4A4_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_B4G4R4A4_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_R5G6B5_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_B5G6R5_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_R5G5B5A1_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B5G5R5A1_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A1R5G5B5_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_R8_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8_SNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8_SRGB:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R8G8_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8_SNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8_SRGB:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R8G8B8_UNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8_SNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R8G8B8_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R8G8B8_SRGB:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8_UNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8_SNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8_SRGB:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R8G8B8A8_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8A8_SNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8A8_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8A8_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8A8_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8A8_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R8G8B8A8_SRGB:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_B8G8R8A8_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_B8G8R8A8_SNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8A8_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8A8_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8A8_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8A8_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8A8_SRGB:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_A8B8G8R8_UNORM_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A8B8G8R8_SNORM_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A8B8G8R8_USCALED_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A8B8G8R8_SSCALED_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A8B8G8R8_UINT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A8B8G8R8_SINT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A8B8G8R8_SRGB_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_A2R10G10B10_UNORM_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_A2R10G10B10_SNORM_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2R10G10B10_USCALED_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2R10G10B10_SSCALED_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2R10G10B10_UINT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2R10G10B10_SINT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2B10G10R10_UNORM_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A2B10G10R10_SNORM_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2B10G10R10_USCALED_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2B10G10R10_SSCALED_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_A2B10G10R10_UINT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_A2B10G10R10_SINT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R16_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16_SNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16_SNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16_UNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16_SNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R16G16B16_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R16G16B16_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16A16_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16A16_SNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16A16_USCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16A16_SSCALED:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16A16_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16A16_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R16G16B16A16_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_ATOMIC_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_ATOMIC_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_ATOMIC_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32B32_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32B32_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32B32_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32B32A32_UINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32B32A32_SINT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R32G32B32A32_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R64_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R64G64_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64G64_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64G64_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R64G64B64_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64G64B64_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64G64B64_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_R64G64B64A64_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64G64B64A64_SINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R64G64B64A64_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_B10G11R11_UFLOAT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BLEND_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
+		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
+
+FORMAT_E5B9G9R9_UFLOAT_PACK32:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
+
+FORMAT_D16_UNORM:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_X8_D24_UNORM_PACK32:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_D32_SFLOAT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_S8_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_D16_UNORM_S8_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_D24_UNORM_S8_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_D32_SFLOAT_S8_UINT:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC1_RGB_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC1_RGB_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_UNKNOWN_FORMAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_UNKNOWN_FORMAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC2_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC2_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC3_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC3_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC4_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC4_SNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC5_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC5_SNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC6H_UFLOAT_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC6H_SFLOAT_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC7_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_BC7_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ETC2_R8G8B8_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_UNKNOWN_FORMAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_UNKNOWN_FORMAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_UNKNOWN_FORMAT:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_EAC_R11_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_EAC_R11_SNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_EAC_R11G11_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_EAC_R11G11_SNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_4x4_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_4x4_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_5x4_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_5x4_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_5x5_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_5x5_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_6x5_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_6x5_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_6x6_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_6x6_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_8x5_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_8x5_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_8x6_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_8x6_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_8x8_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_8x8_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x5_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x5_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x6_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x6_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x8_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x8_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x10_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_10x10_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_12x10_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_12x10_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_12x12_UNORM_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_ASTC_12x12_SRGB_BLOCK:
+	linearTiling   FormatFeatureFlags:
+		None
+	optimalTiling  FormatFeatureFlags:
+		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+

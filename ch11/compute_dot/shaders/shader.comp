@@ -1,0 +1,48 @@
+#version 450
+
+#extension GL_ARB_separate_shader_objects : enable
+#extension GL_ARB_shading_language_420pack : enable
+
+#define NUM_VECTORS 256
+#define NUM_GROUPS 4
+
+layout (local_size_x = NUM_VECTORS) in;
+
+layout (binding=0) uniform ubo {
+  ivec4 a_data[NUM_GROUPS * NUM_VECTORS];
+  ivec4 b_data[NUM_GROUPS * NUM_VECTORS];
+} input_data;
+
+layout (binding=1) buffer ssbo {
+  ivec4 result;
+};
+
+shared int temp;
+
+void main() {
+
+  /* Initialize shared variable */
+  if(gl_LocalInvocationID.x == 0) {
+    temp = 0;
+    groupMemoryBarrier();
+  }
+  barrier();
+
+  /* Compute product of input values */
+  uint index = gl_WorkGroupID.x * NUM_VECTORS + 
+    gl_LocalInvocationID.x;
+  ivec4 prod = 
+    input_data.a_data[index] * input_data.b_data[index];
+  
+  /* Add products to shared variable */
+  int temp_sum = prod.x + prod.y + prod.z + prod.w;
+  atomicAdd(temp, temp_sum);
+  groupMemoryBarrier();
+  barrier();    
+  
+  /* Update output buffer */
+  if(gl_LocalInvocationID.x == 0) {
+    result[gl_WorkGroupID.x] = temp;
+    memoryBarrier();      
+  }
+}
